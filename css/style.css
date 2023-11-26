@@ -1,19 +1,25 @@
-.text-box h3:nth-child(odd) {
-    color: pink;
+div>h3:first-child 
+{
+color: pink;
 }
 
 #greycol {
-    color: grey;
+    color: gray;
 }
 
-.text-box div p {
-    color: red;
+div>p:first-child 
+{
+color: red;
 }
 
-.text-box p:nth-child(4) {
+div~p {
     color: green;
 }
 
-.text-box p.yellow {
-    color: yellow;
+.yellow {
+    color:yellow;
+}
+ 
+li:nth-child(2n) {
+    background-color: aqua;
 }

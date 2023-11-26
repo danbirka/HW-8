@@ -1,61 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <style>
-        /* Псевдокласи стану */
-        ul:active {
-            background-color: lightblue;
-        }
-
-        li:hover {
-            font-weight: bold;
-        }
-
-        /* Псевдокласи структури */
-        li:first-child {
-            color: red;
-        }
-
-        li:last-child {
-            color: green;
-        }
-
-        li:nth-child(odd) {
-            background-color: lightgray;
-        }
-
-        li:nth-child(even) {
-            background-color: lightyellow;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <div>
-        <ul>
-            <li>Понеділок</li>
-            <li>Урок 1</li>
-            <li>Урок 2</li>
-        </ul>
-        <ul>
-            <li>Вівторок</li>
-            <li>Урок 1</li>
-            <li>Урок 2</li>
-        </ul>
-        <ul>
-            <li>Середа</li>
-            <li>Урок 1</li>
-            <li>Урок 2</li>
-        </ul>
-        <ul>
-            <li>Четвер</li>
-            <li>укр мова</li>
-            <li>Урок 2</li>
-        </ul>
-        <ul>
-            <li>П'ятниця</li>
-            <li>математика</li>
-            <li>англіська</li>
-        </ul>
-    </div>
+    <div class="text-box">
+        <h3>Пофарбуйте мене в рожевий колір (color:pink).</h3>
+        <p>Даний елемент має залишитись неоформленим.</p>
+        <p id="greycol">Пофарбуйте мене в сірий колір (color:grey).</p>
+        <div>Даний елемент має залишитись неоформленим.</div>
+        <div><p>Пофарбуйте мене в червоний колір (color:red).</p></div>
+        <h3>Даний елемент має залишитись неоформленим.</h3>
+        <p>Пофарбуйте мене в зелений колір (color:green).</p>
+        <p class="yellow">Пофарбуйте мене в жовтий колір (color:yellow).</p>
+      </div>
 </body>
 </html>
