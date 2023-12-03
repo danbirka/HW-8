@@ -23,3 +23,45 @@ div~p {
 li:nth-child(2n) {
     background-color: aqua;
 }
+
+/* Псевдокласи стану */
+.lessons ul:hover {
+    background-color: lightblue;
+  }
+  
+  .lessons ul li:first-child {
+    font-weight: bold;
+  }
+  
+  .lessons ul li:last-child {
+    font-style: italic;
+  }
+  
+  .lessons ul li:nth-child(odd) {
+    color: green;
+  }
+  
+  .lessons ul li:nth-child(even) {
+    color: blue;
+  }
+  
+  /* Структурні псевдокласи */
+  .lessons ul:first-of-type {
+    border: 1px solid red;
+  }
+  
+  .lessons ul:last-of-type {
+    border: 1px solid orange;
+  }
+  
+  .lessons ul:nth-of-type(3) {
+    border: 1px solid yellow;
+  }
+  
+  .lessons ul:nth-last-of-type(2) {
+    border: 1px solid purple;
+  }
+  
+  .lessons ul:nth-child(2n+1) {
+    transform: scale(1.1);
+  }
