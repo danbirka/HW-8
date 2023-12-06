@@ -24,7 +24,7 @@ li:nth-child(2n) {
     background-color: aqua;
 }
 
-/* Псевдокласи стану */
+/*  уроки */
 .lessons ul:hover {
     background-color: lightblue;
   }
